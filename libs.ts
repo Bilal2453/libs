@@ -1278,7 +1278,10 @@ export const libs: Lib[] = [
 		slashCommands: 'No',
 		buttons: 'No',
 		selectMenus: 'No',
-		threads: 'No',
+		threads: {
+			text: 'Has a PR',
+			url: 'https://github.com/SinisterRectus/Discordia/pull/418'
+		},
 		guildStickers: 'No',
 		contextMenus: 'No',
 		autocomplete: 'No',
@@ -1292,7 +1295,7 @@ export const libs: Lib[] = [
 		monetization: 'No',
 		userApps: 'No',
 		polls: 'No',
-		forwarding: 'No',
+		forwarding: 'Yes',
 		appEmoji: 'No'
 	},
 	{
